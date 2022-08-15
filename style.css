@@ -1,0 +1,51 @@
+.header {
+    border-bottom: 5px solid Dodgerblue;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search input {
+    border-radius: 25px;
+}
+
+.search__button {
+    position: absolute;
+    width: 16px;
+    top: calc(50% - 8px);
+    right: 15px;
+    cursor: pointer;
+}
+
+.grid img {
+
+}
+
+.grid {
+    max-height: 100vh;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid>* {
+    margin: 15px;
+}
+
+.img {
+    width: 380px;
+    height: 241px;
+    overflow: hidden;
+}
